@@ -1,0 +1,16 @@
+@use 'main' as *;
+@use 'vuetify/settings' with (
+  $body-font-family: $font-family,
+  // app-bar
+  $app-bar-background: $primary-background-color,
+  $app-bar-color: $text-color,
+  $app-bar-border-color: $transparent,
+  // text-field
+  $text-field-affix-color: $text-color,
+  // bottom-navigation
+  $bottom-navigation-background: $second-background-color,
+  $bottom-navigation-color: $text-color,
+  // card
+  $card-border-radius: $card-radius,
+  $card-color: $text-color
+);

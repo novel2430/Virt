@@ -1,0 +1,29 @@
+
+$primary-background-color: #fff1c8;
+$second-background-color: #ffde75;
+$primary-highlight-color: #febb03;
+$text-color: #333333;
+// $text-color: #ffffff;
+$em-text-color: #ffa658;
+$transparent: rgba(0,0,0,0);
+$card-radius: 25px;
+$font-family: 'system-ui', -apple-system, 'Noto Sans', 'Noto Sans SC', 'Noto Sans TC', Roboto, Arial, sans-serif;
+
+
+:root {
+  --primary-background-color: #{$primary-background-color};
+  --second-background-color: #{$second-background-color};
+}
+
+.wave-card {
+  width: 100%;
+  color: $text-color;
+  background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="100%25" height="320" viewBox="0 0 1440 320"><rect width="1440" height="320" fill="%23ffffff"/><path fill="%23ffde75" fill-opacity="1" d="M0,96L60,90.7C120,85,240,75,360,101.3C480,128,600,192,720,208C840,224,960,192,1080,181.3C1200,171,1320,181,1380,186.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"/></svg>') no-repeat center/cover;
+}
+
+.gray-card {
+  width: 100%; 
+  background-color: #eaeaea; 
+  border-color: #00000065;
+  color: $text-color;
+}

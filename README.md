@@ -62,7 +62,7 @@ cd backEnd
 ```
 #### 安装依赖
 ```sh
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 #### 运行
 ```sh

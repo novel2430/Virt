@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/components/Home.vue';
-import Ask from '@/components/Ask.vue';
+import Ask from '@/components/ChatArea.vue';
 import QuestionArea from '@/components/QuestionArea.vue';
 import Message from '@/components/Messages.vue'
 import Profile from '@/components/Profile.vue'

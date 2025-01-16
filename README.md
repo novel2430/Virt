@@ -79,7 +79,7 @@ python main.py
   - [Vite](https://vite.dev/)  
     快速部属，建构前端工具
 ### 后端
-  -  [Python Flask](https://flask.palletsprojects.com/s)  
+  -  [Python Flask](https://flask.palletsprojects.com/)  
     后端server开发框架
   - 推理模型: [ChatGLM3-6b](https://huggingface.co/THUDM/chatglm3-6b)
 ### 前后端部属

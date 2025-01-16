@@ -50,11 +50,13 @@
 </template>
 
 <script>
+  import { inject } from "vue";
   export default {
     data: () => ({ 
       newMessage: "",
       sessionId: "",
-      apiHost: "https://www.yejsgk.top/ff",
+      // apiHost: "https://www.yejsgk.top/ff",
+      apiHost: inject("apiHost"),
       messages: [
         {
           content: "今天有什么疑问吗？",
